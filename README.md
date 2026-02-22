@@ -20,7 +20,7 @@ You can view the live app on GitHub Pages here:
 
 ## Screenshot
 
-![Weather App Screenshot](./screenshot.png)
+![Weather App Screenshot](./weatherapp.png)
 
 
 ## Learning Outcomes
