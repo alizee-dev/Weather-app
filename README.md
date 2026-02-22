@@ -4,7 +4,6 @@ This is my first small weather app project, built as part of my personal learnin
 
 > **Note:** This project is primarily a record of my learning process. With hindsight, the JavaScript structure could be improved, especially around data handling and code organization. It’s not intended as production-ready code, but as a reflection of my growth in programming.
 
----
 
 ## Features
 
@@ -12,20 +11,17 @@ This is my first small weather app project, built as part of my personal learnin
 - Displays temperature, humidity, wind speed, visibility, weather description, and corresponding icons.
 - Responsive design for desktop and mobile.
 
----
 
 ## Demo
 
 You can view the live app on GitHub Pages here:  
 [Weather App Live](https://alizee-dev.github.io/Weather-app/)
 
----
 
 ## Screenshot
 
 ![Weather App Screenshot](./screenshot.png)
 
----
 
 ## Learning Outcomes
 
@@ -36,7 +32,6 @@ You can view the live app on GitHub Pages here:
 - Handling user input and event listeners.
 - Reflecting on code structure and planning improvements for future projects.
 
----
 
 ## Notes
 
@@ -46,6 +41,5 @@ This project serves as a **learning milestone**. I am aware there are improvemen
 - Improve handling of daily forecasts and calculations (min/max temperatures, descriptions).
 - Consider more elegant error handling for API failures.
 
----
 
 > Built as part of my learning journey in web development. This repository is a record of practice and progress, not a polished production app.
