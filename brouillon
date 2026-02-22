@@ -1,0 +1,31 @@
+           
+           
+           
+           // const tempsCurrentDay = (dataList) => {
+//   let moments = [];
+//   let dayTemp = [];
+//   for (let j = 0; j < dataList.length - 1; j++) {
+//     let day = convertTimeStamp(dataList[j].dt).slice(0, 2);
+//     if (day = convertTimeStamp(dataList[j + 1].dt).slice(0, 2)) {
+//       dayTemp.push(dataList[j].main.temp);
+//       moments.push((dataList[j].dt_txt).slice(11, 13))
+//     }else {
+//       break;
+//     }
+//   }
+//   console.log(moments);
+//   console.log(dayTemp)
+// };
+           
+           
+           // console.log(tempsCurrentDay(data.list)[0])
+            // const chartCurrentTemp = document.getElementById("plotlyChart")
+            // let trace1 = {
+            //   x: [1, 2, 3, 4],
+            //   y: [10, 15, 13, 17],
+            //   type: 'scatter'
+            // };
+            
+            // Plotly.newPlot('myDiv', trace1);
+            
+

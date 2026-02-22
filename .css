@@ -1,0 +1,212 @@
+.styleBody {
+    /* background-image: url(https://images.unsplash.com/photo-1511739172509-0e5da91222d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc5NjF8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxMTI2Nzl8&ixlib=rb-4.0.3&q=80&w=1080); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: fit-content; */
+  }
+  
+  .styleMain {
+    /* height: fit-content;
+    width: 78vw; */
+    height: 100vh;
+    width: 76vw;
+    background: #00000080;
+  }
+  
+  /* .styleDaysSection {
+    display: flex;
+      justify-content: space-between;
+  } */
+  
+  /* .styleDivDay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  } */
+  
+  .styleImg {
+    size: 60px;
+  }
+  
+  body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  main {
+    padding: 20px;
+    /* background: #eaeaea; */
+    border-radius: 30px;
+    margin: 1em;
+    background: #000000d0;
+    /* background:#00000080 */
+    color: white;
+    width: 13rem;
+  }
+  
+  #cityInput {
+    font-family: "Open Sans", sans-serif;
+    border-radius: 18px;
+    border: none;
+    height: 1em;
+    outline: none;
+    padding: 10px 16px;
+    background: #7c7c7c2b;
+    color: white;
+    width: 8em;
+  }
+  
+  #submit {
+    font-family: "Open Sans", sans-serif;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    height: 2em;
+    width: 2em;
+    background: #7c7c7c2b;
+    color: white;
+    transition: 0.2s ease-in-out;
+  }
+  
+  #submit:hover {
+    background: #7c7c7c6b;
+  }
+  
+  img {
+    width: 40px;
+  }
+  
+  #mainSection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* #minMax {
+    display: flex;
+    justify-content: space-around;
+  } */
+  
+  .divDay {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #icon {
+    align-self: center;
+  }
+  
+  .divDay > p:first-child {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .divDay > img {
+    flex: 1;
+  }
+  
+  .divDay > :nth-child(3) {
+    flex: 1;
+    text-align: right;
+  }
+  
+  #descriptionText {
+    /* border-top: 2px dashed;
+    padding: 10px;
+    padding-top: 30px;
+    margin: 0px 50px; */
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  #cityDescription > :nth-child(3) {
+    font-size: 40px;
+    margin: 0px 30%;
+  }
+  
+  #cityDescription > :nth-child(2) {
+    margin-top: 0px;
+  }
+  
+  #cityDescription {
+    text-align: center;
+  }
+  
+  #cityName {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 32px;
+  }
+  
+  #dayTemp {
+    font-weight: 600;
+    font-size: 54px;
+    border-bottom: 2px dashed;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 0px 55px;
+  }
+  
+  #dName {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  
+  #dDate {
+    margin-top: 1px;
+    font-size: 14px;
+  }
+  
+  #dTemp {
+    font-weight: 600;
+    font-size: 28px;
+    margin: 5px 0px;
+    /* margin-top: 12px ;
+    margin-bottom:0px;
+    padding-bottom : 15px;
+    border-bottom: 2px dashed; */
+  }
+  
+  #defaultFlex {
+    display: flex;
+    align-items: center;
+  }
+  
+  #defaultIcon {
+    width: 50px;
+  }
+  
+  @media only screen and (min-width: 450px) {
+    .styleMain {
+      height: 90vh;
+      width: 87vw;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      background: #00000070;
+      justify-content: space-between;
+    }
+    .styleDivDay {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 25px;
+    }
+    .styleDaysSection {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
