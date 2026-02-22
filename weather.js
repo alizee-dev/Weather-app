@@ -155,7 +155,7 @@ const removeCityCardDef = () => {
 var myKey = config.Key_openWeather;
 
 fetch(
-  `http://api.openweathermap.org/geo/1.0/direct?q=Brussels&limit=1&appid=` +
+  `https://api.openweathermap.org/geo/1.0/direct?q=Brussels&limit=1&appid=` +
     myKey
 )
   .then((response) => response.json())
@@ -251,7 +251,7 @@ const fetchWeatherData = () => {
     });
 
   fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=` +
+    `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=` +
       myKey
   )
     .then((response) => response.json())
